@@ -1,11 +1,6 @@
 import { Component } from '@angular/core';
 import { Input } from '@angular/core';
-import { Team
-
-
-
-
-} from '../models/team.model';
+import { Team } from '../models/team.model';
 @Component({
   selector: 'app-team',
   templateUrl: './team.component.html',

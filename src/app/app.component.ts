@@ -15,7 +15,7 @@ export class AppComponent {
   teams:Team[]
   serviceResponse:ServiceResponse
   oServiceResponse:Observable<ServiceResponse>
-  serviceURL:string
+  serviceURL = "https://www.balldontlie.io/api/v1/teams/"
 
 
   constructor(public http:HttpClient){
